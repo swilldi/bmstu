@@ -1,4 +1,4 @@
-CREATE TABLE company (
+CREATE TABLE IF NOT EXISTS company (
     id serial,
     name text,
     country text,
@@ -6,32 +6,33 @@ CREATE TABLE company (
     founded_year int
 );
 
-CREATE TABLE game (
+CREATE TABLE IF NOT EXISTS game (
     id serial,
     title text,
     users_score int,
-    age_rating text,
-    first_release_date date
-    game_engine_id int REFERENCES game_engine(id)
+    age_rating int,
+    first_release_date date,
+    game_engine_id int
 
 );
 
-CREATE TABLE platform (
+CREATE TABLE IF NOT EXISTS platform (
     id serial,
     name text,
     short_name text,
     type text,
     generation int,
-    release_date date
+    release_date date,
+    company_id int
 );
 
-CREATE TABLE genre (
+CREATE TABLE IF NOT EXISTS genre (
     id serial,
     name text,
     parent_id int
 );
 
-CREATE TABLE game_engine (
+CREATE TABLE IF NOT EXISTS game_engine (
     id serial,
     name text,
     version text,
@@ -40,15 +41,15 @@ CREATE TABLE game_engine (
     is_active boolean
 );
 
-CREATE TABLE game_genre (
-    game_id int REFERENCES game(id),
-    genre_id int REFERENCES genre(id)
+CREATE TABLE IF NOT EXISTS game_genre (
+    game_id int,
+    genre_id int
 );
 
-CREATE TABLE game_release (
-    game_id int REFERENCES game(id),
-    platform_id int REFERENCES platform(id),
-    company_id int REFERENCES company(id),
+CREATE TABLE IF NOT EXISTS game_release (
+    game_id int,
+    platform_id int,
+    company_id int,
     release_date date,
     region text,
     role text
