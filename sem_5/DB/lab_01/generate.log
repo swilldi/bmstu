@@ -1,0 +1,14 @@
+Шаг 1/5. Отбор игр
+Traceback (most recent call last):
+  File "/Users/ddmitriy/BMSTU/lab-works/sem_5/DB/lab_01/generate_data.py", line 575, in <module>
+    main()
+    ~~~~^^
+  File "/Users/ddmitriy/BMSTU/lab-works/sem_5/DB/lab_01/generate_data.py", line 531, in main
+    games = collect_games(f, args.games)
+  File "/Users/ddmitriy/BMSTU/lab-works/sem_5/DB/lab_01/generate_data.py", line 145, in collect_games
+    q, lab = qid(val(r, "game")), val(r, "gameLabel")
+             ~~~^^^^^^^^^^^^^^^^
+  File "/Users/ddmitriy/BMSTU/lab-works/sem_5/DB/lab_01/generate_data.py", line 46, in qid
+    return url.rsplit("/", 1)[-1]
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'rsplit'
