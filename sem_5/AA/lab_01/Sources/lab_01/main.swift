@@ -35,9 +35,7 @@ struct Main {
 
     static let notFound = -1
 
-    /// Исходный массив в порядке ввода — для полного перебора.
     private let source: [Int]
-    /// Отсортированный дубликат — для бинарных поисков.
     private let sorted: [Int]
 
     private var selectedIndex: Int = 0
@@ -45,9 +43,14 @@ struct Main {
 
     private var selected: AlgorithmInfo { Main.algorithms[selectedIndex] }
 
-    init(array: [Int]) {
-        source = array
-        sorted = array.sorted()
+    init(n: Int) {
+        var arr = Set<Int>()
+        while arr.count < n {
+            arr.insert(Int.random(in: 0...30))
+        }
+
+        source = Array(arr)
+        sorted = Array(arr).sorted()
     }
 
     // MARK: - Ввод
@@ -248,11 +251,8 @@ if CommandLine.arguments.contains("--test") {
     exit(0)
 }
 
-guard let array = Main.readArray() else {
-    print("\nВвод прерван")
-    exit(0)
-}
-
-var app = Main(array: array)
+print("Введите N: ")
+let n = Int(readLine()!)!
+var app = Main(n: n)
 app.showArrays()
 app.run()
