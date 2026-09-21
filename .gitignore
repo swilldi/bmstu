@@ -3,6 +3,7 @@
 __pycache__
 .vscode
 *.bkp
+app
 
 # Проекты в QtCreator
 **/.qtcreator/**
