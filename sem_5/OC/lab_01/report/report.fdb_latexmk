@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1789465244.11645 "report.xdv" "report.pdf" "report" 1789465244.29357 0
-  "report.xdv" 1789465244.08587 64828 71c11eb80c1db66f65a5ba718b2131e8 "xelatex"
+["xdvipdfmx"] 1790011271.92612 "report.xdv" "report.pdf" "report" 1790011272.12275 0
+  "report.xdv" 1790011271.89735 64824 fb5b5eff3d2f89e238e4a8f6a5d1433b "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1789465243.56836 "report.tex" "report.xdv" "report" 1789465244.29291 0
+["xelatex"] 1790011271.34788 "report.tex" "report.xdv" "report" 1790011272.12209 0
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -118,14 +118,14 @@
   "/usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf" 1770478701 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
   "/usr/local/texlive/2026/texmf-var/web2c/xetex/xelatex.fmt" 1789451150 5948557 5f93a048068afb7c566ee4a8a6c22841 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "algo-crop.pdf" 1789465243.5134 116002 b7e9215c3f66ee594babb1368d92ce54 ""
-  "bmstu-logo.pdf" 1789411526.45693 129396 47c394a123c149789671504f190cc0c4 ""
-  "bmstu-title.sty" 1789411526.45701 6326 9052ebdc77a1a383f54ae56b78f4f000 ""
-  "listing-int08.lst" 1789465243.19334 3182 4112c83aef6674afe8f3f8df29b0a918 ""
-  "listing-sub1.lst" 1789465243.19345 1097 71d8fbde1e0b88601167145713e35e51 ""
-  "report.aux" 1789465244.08548 1755 c61f2e184f16d3e9857990bda6c70941 "xelatex"
-  "report.out" 1789465243.96445 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "report.tex" 1789462963.24187 3728 afc0d92a87cf593f4780508e6e325f6b ""
+  "algo-crop.pdf" 1790011271.27245 114338 0e4f57f5803155ddcf354dedf07107f3 ""
+  "bmstu-logo.pdf" 1790010596.96647 129396 47c394a123c149789671504f190cc0c4 ""
+  "bmstu-title.sty" 1790010596.96653 6326 9052ebdc77a1a383f54ae56b78f4f000 ""
+  "listing-int08.lst" 1790011270.81291 3182 4112c83aef6674afe8f3f8df29b0a918 ""
+  "listing-sub1.lst" 1790011270.81309 1097 71d8fbde1e0b88601167145713e35e51 ""
+  "report.aux" 1790011271.89695 1755 c61f2e184f16d3e9857990bda6c70941 "xelatex"
+  "report.out" 1790011271.76607 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "report.tex" 1790010596.96714 3728 afc0d92a87cf593f4780508e6e325f6b ""
   (generated)
   "report.aux"
   "report.log"
